@@ -7,16 +7,24 @@
 <body style="min-width:500px; margin: 20px;">
     <div class="container">
         <h4>Shortcuts to NIFTY 50 Intraday Graphs</h4>
-        <form>
+        <form style="padding-bottom: 10px;">
             <div class="form-group">
               <label for="sel1">Select a NIFTY50 from below:</label>
               <select class="form-control" id="sel1"></select>
             </div>
-            <button type="button" class="btn" id="openChart">Open Chart !</button>
+            <button type="button" class="btn" id="openChart">Open Chart from list !</button>
+        </form>
+        <form style="padding-top: 10px;">
+            <div class="form-group">
+              <label for="sel2">Or enter a SYMBOL Below</label>
+              <input class="form-control" id="sel2"></input>
+            </div>
+            <button type="submit" class="btn" id="openChart2">Open From Symbol !</button>
         </form>
     </div>
     <script src="js/jQuery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-csv.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

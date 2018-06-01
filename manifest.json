@@ -7,6 +7,9 @@
                "48": "icon48.png",
                "128": "icon128.png" },
     "author": "Viresh Gupta",
+    "permissions": [
+        "https://www.nseindia.com/*"
+    ],
     "browser_action": {
         "default_popup": "popup.html",
         "default_icon": "icon48.png"
