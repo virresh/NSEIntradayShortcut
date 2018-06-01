@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "Nifty50 Intraday Shortcut",
+    "description": "A list of shortlinks to NIFTY50 live intraday charts",
+    "version": "1",
+    "author": "Viresh Gupta",
+    "browser_action": {
+        "default_popup": "popup.html"
+    }
+}
